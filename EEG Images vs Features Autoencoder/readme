@@ -15,7 +15,7 @@ Pre-processing: Fast Fourier Transform(FFT), Frequency Binning, 2D Azimuthal Pro
 
 Network Architecture: convolutional autoencoder for feature extraction, feedforward network for classification.
 
-4. results
+4. Results
 
 Both goals were met with an accuracy increase of around 20 %.
 
