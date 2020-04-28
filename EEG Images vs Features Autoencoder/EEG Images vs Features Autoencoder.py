@@ -272,7 +272,7 @@ def trialfunction(input_data):
         extracted_df.index.names = ['pos']
 
       
-        #https://www.samuelbosch.com/2014/02/azimuthal-equidistant-projection.html
+        #adapted from https://www.samuelbosch.com/2014/02/azimuthal-equidistant-projection.html
 
         class Point(object):
             def __init__(self,x, y, z):
@@ -964,7 +964,10 @@ accuracy4 = 100 * correct4 / total4
 
 
 print()
-print("Summary:")
+print("Summary of classifier accuracy:")
+print()
+print('Image accuracy:',accuracy4,'%')
+print('Feature accuracy:',accuracy3,'%')
 print()
 print('In ',total4,' test cases, Changing classifier input form images to features lead to:' )
 print()
