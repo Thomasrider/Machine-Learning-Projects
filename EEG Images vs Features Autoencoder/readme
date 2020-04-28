@@ -1,1 +1,19 @@
-https://www.kaggle.com/xridet48/eeg-images-vs-features-autoencoder/edit
+1. Data 
+
+The Data contains EEG correlates of genetic predisposition to alcoholism. 
+It can be found at https://archive.ics.uci.edu/ml/datasets/eeg+database.
+
+2. Goal
+
+The primary goal was sto develop a classifer that preseverse information about electrode placement
+position and detection timing (time and space) in the form of eeg images .
+
+The scondary goal was to show the increase in classification accuracy by using extracted features instead of images.
+
+3. Significant steps
+
+Preprocessing: Fast Fourier Transform(FFT), Frequency Binning, 2D Azimuthal Projection
+Network Architecture: convolutional autoencoder for feature extraction, feedforward network for clasification.
+
+
+Can be found on Kaggle: https://www.kaggle.com/xridet48/eeg-images-vs-features-autoencoder/edit
