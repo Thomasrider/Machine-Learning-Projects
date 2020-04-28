@@ -5,15 +5,15 @@ It can be found at https://archive.ics.uci.edu/ml/datasets/eeg+database.
 
 2. Goal
 
-The primary goal was sto develop a classifer that preseverse information about electrode placement
-position and detection timing (time and space) in the form of eeg images .
+The primary goal was to develop a classifier that preserves information about electrode placement position and detection timing (time and space) in the form of EEG images.
 
-The scondary goal was to show the increase in classification accuracy by using extracted features instead of images.
+The secondary goal was to show the increase in classification accuracy by using extracted features instead of images.
 
-3. Significant steps
+3. Significant Steps
 
-Preprocessing: Fast Fourier Transform(FFT), Frequency Binning, 2D Azimuthal Projection
-Network Architecture: convolutional autoencoder for feature extraction, feedforward network for clasification.
+Pre-processing: Fast Fourier Transform(FFT), Frequency Binning, 2D Azimuthal Projection
+
+Network Architecture: convolutional autoencoder for feature extraction, feedforward network for classification.
 
 
 Can be found on Kaggle: https://www.kaggle.com/xridet48/eeg-images-vs-features-autoencoder/edit
