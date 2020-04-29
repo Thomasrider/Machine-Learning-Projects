@@ -19,4 +19,4 @@ Network Architecture: convolutional autoencoder for feature extraction, feedforw
 
 Both goals were met with an accuracy increase of around 20 %.
 
-Can be found on Kaggle: https://www.kaggle.com/xridet48/eeg-images-vs-features-autoencoder/edit
+Can be found on Kaggle: https://www.kaggle.com/xridet48/eeg-images-vs-features-autoencoder
