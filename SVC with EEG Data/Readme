@@ -16,4 +16,4 @@ StandardScaler, SMOTE, RFECV, GridSearchCV, ROC/AUC
 
 Both goals were met with 81.11% accuracy. However, because data was not very unbalanced SMOTE is not essential to reach it.
 
-Can be found on Kaggle: https://www.kaggle.com/xridet48/eeg-images-vs-features-autoencoder/edit
+Can be found on Kaggle: https://www.kaggle.com/xridet48/svc-with-eeg-smote-rfecv-gridsearchcv-roc-auc
