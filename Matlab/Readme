@@ -1,1 +1,16 @@
+1. Data 
 
+The Data contains the students' time series of activities during six sessions of laboratory sessions of the course of digital electronics. 
+It can be found at http://archive.ics.uci.edu/ml/datasets/Educational+Process+Mining+%28EPM%29%3A+A+Learning+Analytics+Data+Set.
+
+2. Goal
+
+The primary goal was to develop a mouse activity forecast model of the last 10% of a learning session.
+
+3. Network Architecture: LSTM with updated Network State with Observed Values
+
+4. Results
+
+The goal was reached with a better than random forecast which also indicates characteristics of test values in the forecast.
+
+Can be found on Kaggle: https://www.kaggle.com/xridet48/eeg-images-vs-features-autoencoder/edit
